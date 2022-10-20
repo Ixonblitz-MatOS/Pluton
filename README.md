@@ -5,6 +5,12 @@ Solarity was the first attempt at this before Visual Code 2019 has started some 
 
 Pluton is planned to be the base game engine for MatOS(Which is in development for better support and created on a better base structure than the previous linux distro). Pluton is more than just a game engine it is just a 3d engine in general but was made in hopes to expand its functionality.
 
+I'd like to give credit to the following:
+
+<li><a href="https://github.com/gabime/spdlog">spdlog</a></li>
+<li><a href="https://github.com/premake/premake-core">Premake-Core</a></li>
+
+
 Compatibility:
 <li>Windows 11 X64(Development Platform)</li>
 <li>Windows 10 X64(Support)</li>
