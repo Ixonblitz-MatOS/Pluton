@@ -1,7 +1,7 @@
 #pragma once
+#include "plpch.h"
 #include "spdlog/spdlog.h"
 #include "spdlog/sinks/stdout_color_sinks.h"
-#include <memory>
 #include "Core.h"
 namespace Pluton {
 	class PLUTON_API Log

@@ -1,4 +1,6 @@
 #pragma once
+
+#include "plpch.h"
 #include "Log.h"
 
 #ifdef PL_PLATFORM_WINDOWS

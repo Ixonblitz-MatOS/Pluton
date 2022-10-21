@@ -1,3 +1,5 @@
+
+#include "plpch.h"
 #include "Log.h"
 
 namespace Pluton {

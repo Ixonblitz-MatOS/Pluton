@@ -13,7 +13,8 @@ project "Pluton"
     language "C++"
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
-
+	pchheader  "plpch.h"
+	pchsource "Pluton/src/plpch.cpp"
     files
     {
         "%{prj.name}/src/**.h",
@@ -22,9 +23,9 @@ project "Pluton"
 
     includedirs
     {
-        "Pluton/vendor/spdlog/include"
+        "Pluton/vendor/spdlog/include",
+		"%{prj.name}/src"
     }
-
     filter "system:windows"
         cppdialect "C++17"
         staticruntime "On"
