@@ -1,0 +1,3 @@
+[submodule "Pluton/vendor/spdlog"]
+	path = Pluton/vendor/spdlog
+	url = https://github.com/gabime/spdlog
