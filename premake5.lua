@@ -7,6 +7,7 @@ workspace "Pluton"
         "Dist"
     }
 outputdir="%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
+
 project "Pluton"
     location "Pluton"
     kind "SharedLib"
@@ -26,6 +27,7 @@ project "Pluton"
         "Pluton/vendor/spdlog/include",
 		"%{prj.name}/src"
     }
+
     filter "system:windows"
         cppdialect "C++17"
         staticruntime "On"
