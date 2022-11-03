@@ -1,4 +1,6 @@
 [submodule "Pluton/vendor/spdlog"]
 	path = Pluton/vendor/spdlog
 	url = https://github.com/gabime/spdlog
-
+[submodule "Pluton/vendor/GLFW"]
+	path = Pluton/vendor/GLFW
+	url = https://github.com/glfw/glfw
