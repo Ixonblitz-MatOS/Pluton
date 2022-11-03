@@ -1,0 +1,14 @@
+﻿  Application.cpp
+c:\users\mgavell\source\repos\pluton\pluton\src\pluton\application.h(14): warning C4251: 'Pluton::Application::m_Window': class 'std::unique_ptr<Pluton::Window,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of class 'Pluton::Application'
+          with
+          [
+              _Ty=Pluton::Window
+          ]
+  c:\users\mgavell\source\repos\pluton\pluton\src\pluton\application.h(14): note: see declaration of 'std::unique_ptr<Pluton::Window,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=Pluton::Window
+          ]
+     Creating library ..\bin\Debug-windows-x86_64\Pluton\Pluton.lib and object ..\bin\Debug-windows-x86_64\Pluton\Pluton.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Pluton.vcxproj -> C:\Users\mgavell\source\repos\Pluton\Pluton\..\bin\Debug-windows-x86_64\Pluton\Pluton.dll
